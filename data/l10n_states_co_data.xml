@@ -20,7 +20,7 @@
 
         <record model="res.country.state" id="res_country_state_co_11">
             <field name="name">BOGOTÁ, D.C.</field>
-            <field name="code">DC </field>
+            <field name="code">DC</field>
 
             <field search="[('code','=','CO')]" model="res.country" name="country_id"/>
         </record>
