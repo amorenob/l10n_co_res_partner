@@ -64,8 +64,8 @@ class IndustrialClassification(models.Model):
         if self.code is False or self.description is False:
             self.name = ''
         else:
-            self.name = str(self.code.encode('utf-8').strip()) + \
-                ' - ' + str(self.description.encode('utf-8').strip())
+            self.name = str(self.code) + \
+                ' - ' + str(self.description)
 
     @api.depends('hasParent')
     def _compute_set_type(self):
