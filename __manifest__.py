@@ -12,7 +12,6 @@
     'images': ['images/main_screenshot.png'],
     'depends': [
         'account',
-        'account_accountant',
         'base'
     ],
     'data': [
